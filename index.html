@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Our Funky HTML Page</title>
-        <meta name="description" content="Our first page">
+        <title>Fan Page</title>
+        <meta name="description" content="Fan page">
         <meta charset="utf-8">
     </head>
 
 <body>
-    <h1>My first Website</h1>
+    <h1>Fan page for Ash</h1>
+    <p>This is the Fan page for Ash Kuroki</p>
+    <h2>Author</h2>
     <ul>
         <li>Ash Kuroki</li>
         <li>CSCI 5117</li>
     </ul>
+
+    <h2>Sign up if you want to become fan club member</h2>
+    <input type="text" id = "email" name="email sign up" placeholder="Email sign up" required>
+    <button onclick="click()" type="submit">Submit</button>
+    <p id="email"></p>
+
+    <script>
+        function click() {
+            document.getElementById("email").innerHTML = document.getElementById("email");
+        }
+    </script>
+
+    
 </body>
+
+<footer>
+
+</footer>
 
 </html>
